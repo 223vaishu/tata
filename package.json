@@ -8,7 +8,8 @@
         "lint": "eslint .",
         "devBuild": "catalyst devBuild",
         "devServe": "catalyst devServe",
-        "dev": "npm run dev"
+        "dev": "npm run dev",
+        "build": "webpack --mode production"
     },
     "_moduleAliases": {
         "@api": "api.js",
