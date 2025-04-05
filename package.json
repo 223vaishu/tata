@@ -7,7 +7,9 @@
         "serve": "catalyst serve",
         "lint": "eslint .",
         "devBuild": "catalyst devBuild",
-        "devServe": "catalyst devServe"
+        "devServe": "catalyst devServe",
+        "dev":"npm run dev"
+    
     },
     "_moduleAliases": {
         "@api": "api.js",
